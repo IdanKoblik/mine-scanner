@@ -35,7 +35,7 @@ func main() {
 	}
 
 	start := time.Now()
-	fmt.Printf("Run time: %d\v", time.Since(start))
+	fmt.Printf("Run time: %v", time.Since(start))
 }
 
 func scanMinecraftServers(dir string) (map[string][]string, error) {
